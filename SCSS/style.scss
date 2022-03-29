@@ -1,0 +1,65 @@
+@use "abstract/globals";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  //   max-width: 1100px;
+  padding: 0 20rem;
+}
+
+nav {
+  padding: 1.5rem 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-logo img {
+  width: 5rem;
+}
+
+.brand-links {
+  ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+//Hero Section
+.hero {
+  background: rgb(250, 172, 168);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 172, 168, 1) 0%,
+    rgba(221, 214, 243, 0.9862358864773525) 100%
+  );
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.hero-description {
+  .hero-name {
+    font-size: 1.5rem;
+  }
+}
