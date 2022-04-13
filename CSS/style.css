@@ -115,11 +115,10 @@ nav {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .hero-image img {
-  width: 100rem;
+  width: 110rem;
 }
 
 .hero-description {
@@ -171,17 +170,18 @@ nav {
 .serv .services .services-card .card img {
   max-width: 20rem;
   border-radius: 0.625rem;
+  box-shadow: 0px 16px 27px 5px rgba(0, 0, 0, 0.1);
 }
 .serv .services .services-card .card-1 > img {
-  min-width: 23rem;
+  min-width: 20rem;
   height: 20rem;
 }
 .serv .services .services-card .card-2 > img {
-  min-width: 24rem;
+  min-width: 20rem;
   height: 20rem;
 }
 .serv .services .services-card .card-3 > img {
-  min-width: 24rem;
+  min-width: 20rem;
   height: 20rem;
 }
 .serv .services .services-card .card-title {
@@ -194,6 +194,7 @@ nav {
 .work {
   margin-top: 5rem;
   padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #eed2db;
 }
 .work .work-title > p {
@@ -226,6 +227,44 @@ nav {
   padding: 0.7rem 1.6rem;
   font-size: 1.3rem;
   border-radius: 0.625rem;
+}
+
+.partners {
+  padding-top: 3rem;
+}
+
+.partners-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.partners-logo {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.img1 > img {
+  width: 105rem;
+}
+
+.img2 > img {
+  padding-right: 1.5rem;
+}
+
+.img3 > img {
+  width: 85rem;
+  padding-right: 1.5rem;
+}
+
+.img4 > img {
+  width: 95rem;
+  padding-right: 1.5rem;
+}
+
+.img5 > img {
+  width: 60rem;
 }
 
 /*# sourceMappingURL=style.css.map */
