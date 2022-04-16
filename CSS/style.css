@@ -206,8 +206,8 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 4.5rem;
-  grid-row-gap: 1rem;
+  column-gap: 4.5rem;
+  row-gap: 1rem;
 }
 .work .work-card {
   padding-top: 3rem;
@@ -265,6 +265,59 @@ nav {
 
 .img5 > img {
   width: 60rem;
+}
+
+.testimonials {
+  background-color: #eed2db;
+  padding-top: 3em;
+}
+.testimonials .testimonial-container {
+  display: flex;
+  overflow-x: scroll;
+}
+.testimonials .testimonial-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  padding-bottom: 3rem;
+}
+.testimonials .testimony {
+  padding-right: 3.5rem;
+}
+.testimonials .testimonial-card {
+  width: 30rem;
+  min-width: 30rem;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.testimonials .testimonial-card p {
+  color: #706e6e;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+.testimonials .testimonial-card span {
+  color: #7d7d7d;
+}
+.testimonials .testimonial-card .quote {
+  width: 2.7rem;
+  padding-bottom: 2.4rem;
+}
+.testimonials .testimonial-card .profile-picture img {
+  padding-top: 2rem;
+  width: 10rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+.testimonials .testimonial-card .card-footer {
+  padding-top: 2.5rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
