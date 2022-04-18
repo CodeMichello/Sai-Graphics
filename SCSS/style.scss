@@ -291,8 +291,65 @@ nav {
       padding-top: 2.5rem;
       text-align: center;
     }
+  } 
+}
+
+//get in touch
+
+.contact {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .contact-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
   }
 
+  .contact-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
 
-  
+    .icon-lane-1 {
+
+      .icon-side img {
+        width: 3.5rem;
+      }
+    }
+
+    .icon-lane-2 {
+      .icon-side img {
+        width: 3.5rem;
+      }
+     
+    }
+    .icon-side{
+      padding-top: 2rem;
+      display: flex;
+      align-items: center;
+    
+
+      span {
+        font-size: 1.5rem;
+        color: #603601;
+        padding-left: 1.5rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+//footer
+
+footer {
+  background-color: #eed2db;
+  text-align: center;
+ 
+  .footer-text {
+    font-size: 1.3rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+  }
 }
