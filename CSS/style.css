@@ -92,7 +92,7 @@ nav {
 }
 
 .brand-logo img {
-  width: 5rem;
+  max-width: 5rem;
 }
 
 .brand-links ul {
@@ -273,7 +273,7 @@ nav {
 }
 .testimonials .testimonial-container {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 .testimonials .testimonial-title {
   text-align: center;
@@ -283,6 +283,7 @@ nav {
 }
 .testimonials .testimony {
   padding-right: 3.5rem;
+  padding-bottom: 3rem;
 }
 .testimonials .testimonial-card {
   width: 30rem;
@@ -342,7 +343,7 @@ nav {
   width: 3.5rem;
 }
 .contact .contact-icons .icon-side {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   align-items: center;
 }
@@ -361,6 +362,69 @@ footer .footer-text {
   font-size: 1.3rem;
   padding-top: 3.5rem;
   padding-bottom: 3rem;
+}
+
+.toggle-button {
+  position: absolute;
+  display: none;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 3rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .brand-links {
+    display: none;
+    width: 100%;
+  }
+  .brand-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .brand-links ul a {
+    padding-bottom: 1rem;
+  }
+
+  .brand-links.active {
+    display: flex;
+  }
+
+  .brand-logo img {
+    width: 4rem;
+  }
+
+  .toggle-button {
+    display: flex;
+    margin-top: 1.3rem;
+  }
+
+  .hero {
+    text-align: center;
+  }
+  .hero .hero-image {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
