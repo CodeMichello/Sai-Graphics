@@ -204,10 +204,8 @@ nav {
 }
 .work .work-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  column-gap: 4.5rem;
-  row-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 4.5rem;
 }
 .work .work-card {
   padding-top: 3rem;
@@ -380,11 +378,7 @@ footer .footer-text {
   border-radius: 10px;
 }
 
-.no-scroll {
-  overflow: hidden;
-}
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .container {
     padding: 0 3rem;
   }
@@ -424,6 +418,43 @@ footer .footer-text {
   }
   .hero .hero-image {
     display: none;
+  }
+
+  .serv {
+    padding-top: 2.5rem;
+  }
+  .serv .services-title > p {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  .serv .services {
+    flex-direction: column;
+  }
+  .serv .card-title > p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .serv .title1, .serv .title2 {
+    padding-bottom: 2.5rem;
+  }
+
+  .work .work-title > p {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding-top: 2.5rem;
+  }
+  .work .work-grid {
+    gap: 2rem;
+    justify-content: center;
+  }
+  .work .work-btn {
+    padding-bottom: 3.5rem;
+  }
+  .work .work-card img {
+    min-width: 19rem;
   }
 }
 
