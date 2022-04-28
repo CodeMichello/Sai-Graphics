@@ -287,12 +287,12 @@ nav {
       padding-bottom: 2.4rem;
     }
 
-    .profile-picture img {
-      padding-top: 2rem;
-      width: 10rem;
-     height: 12rem;
-      border-radius: 50%;
-    }
+    // .profile-picture img {
+    //   padding-top: 2rem;
+    //   width: 10rem;
+    //  height: 12rem;
+    //   border-radius: 50%;
+    // }
 
     .card-footer {
       padding-top: 2.5rem;
@@ -380,7 +380,7 @@ footer {
 
 
 
-@media screen and (max-width: 768px) //576
+@media screen and (max-width: 576px) //576
 {
   .container {
    
@@ -438,7 +438,10 @@ footer {
   .serv {
     padding-top: 2.5rem;
     
-  
+    .services-title {
+      padding-top: 2rem;
+    }
+
     .services-title > p {
       text-align: center;
       font-size: 2.2rem;
@@ -479,16 +482,307 @@ footer {
     padding-bottom: 3.5rem;
   }
 
-  .work-card {
+}
+
+
+//Partners 
+
+.partners {
+  padding-top: 1.5rem;
+}
+.partners-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.partners-logo {
+  padding-bottom: 1.5rem;
+}
+
+
+  //testimonial
+
+.testimonials {
   
-    img {
-     min-width: 19rem;
+  padding-top: 1.5em;
+
+  .testimonial-title {
+    padding-bottom: 1.8rem;
+  }
+
+  .testimony {
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+  }
+
+
+  .testimonial-card {
+    width: 28rem;
+    min-width: 28rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.5rem;
+
+    p {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+
+    .quote {
+      width: 2rem;
+      padding-bottom: 1.5rem;
+    }
+
+    .card-footer {
+      padding-top: 1.3rem;
+      text-align: center;
+    }
+  } 
+}
+
+
+//get in touch
+
+.contact {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+
+  .contact-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+
+    .icon-lane-1 {
+
+      .icon-side img {
+        width: 2rem;
+      }
+    }
+
+    .icon-lane-2 {
+      .icon-side img {
+        width: 2rem;
+      }
+     
+    }
+    .icon-side{
+      padding-top: 1rem;
+      display: flex;
+      align-items: center;
+    
+
+      span {
+        font-size: 1.1rem;
+        padding-left: 1rem;
+        
+      }
     }
   }
 }
+}
 
 
 
 
+@media screen and (max-width: 768px) //576
+{
+  .container {
+   
+    padding: 0 3rem;
+  }
+
+  .hero {
+   text-align: center;
+  }
+
+   .hero-image {
+     display: none;
+   }
+
+  .serv {
+    padding-top: 2.5rem;
+  }  
+
+  .services-title {
+    padding-top: 2rem;
+  }
+ 
+  .services {
+    flex-direction: column;
+  }
+
+  .work-btn {
+    padding-bottom: 3.5rem;
+  }
+
+.partners {
+  padding-top: 1.8rem;
+}
+
+.testimonials {
+  
+  padding-top: 1.5em;
+}
+
+.contact {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
 
 }
+
+
+
+@media screen and (max-width: 992px) 
+{
+  .container {
+   
+    padding: 0 3rem;
+  }
+
+  .hero {
+   text-align: center;
+  }
+
+   .hero-image {
+     display: none;
+   }
+
+  .serv {
+    padding-top: 2.5rem;
+
+    .services-title {
+      padding-top: 2rem;
+    }
+    
+
+    .services{
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .card img {
+      max-width: 0rem;
+    }
+  
+    .card-3 {
+      padding-top: 2.5rem;
+    }
+  
+    .card-title {
+      padding-top: 1.5rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+  }  
+ 
+ 
+//works
+
+
+.work-title {
+  padding-top: 1.5rem;
+}
+
+  .work-btn {
+    padding-bottom: 3.5rem;
+  }
+
+.partners {
+  padding-top: 1.8rem;
+}
+
+.testimonials {
+  
+  padding-top: 1.5em;
+}
+
+.contact {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+}
+
+
+
+@media screen and (max-width: 1200px) 
+{
+  .container {
+   
+    padding: 0 4rem;
+  }
+
+  // .hero {
+  //  text-align: center;
+  // }
+
+  //  .hero-image {
+  //    display: none;
+  //  }
+
+   .hero-image img {
+    width: 110rem;
+   
+  }
+
+//   .serv {
+//     padding-top: 2.5rem;
+    
+
+//     .services{
+//       flex-wrap: wrap;
+//       justify-content: space-around;
+//       align-items: center;
+//     }
+
+//     .card img {
+//       max-width: 0rem;
+//     }
+  
+//     .card-3 {
+//       padding-top: 2.5rem;
+//     }
+  
+//     .card-title {
+//       padding-top: 1.5rem;
+//       text-align: center;
+//       font-size: 1.5rem;
+//       font-weight: 500;
+//     }
+//   }  
+ 
+ 
+// //works
+
+
+// .work-title {
+//   padding-top: 1.5rem;
+// }
+
+//   .work-btn {
+//     padding-bottom: 3.5rem;
+//   }
+
+// .partners {
+//   padding-top: 1.8rem;
+// }
+
+// .testimonials {
+  
+//   padding-top: 1.5em;
+// }
+
+// .contact {
+//   padding-top: 1.5rem;
+//   padding-bottom: 2rem;
+// }
+
+}
+
+
+
+
