@@ -6,3 +6,4 @@ toggleButton.addEventListener('click',() => {
     brandLinks.classList.toggle('active')
     document.body.classList.toggle('no-scroll')
 })
+

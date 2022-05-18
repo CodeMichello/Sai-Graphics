@@ -18,12 +18,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   </head>
   <body>
     <nav>
       <div class="navbar container">
         <div class="brand-logo">
-          <img src="Assets/Logo2.png" alt="Logo" />
+          <a href="index.html"><img src="Assets/Logo2.png" alt="Logo" /></a> 
         </div>
 
         <a href="#" class="toggle-button">
@@ -121,13 +124,13 @@
           <img src="assets/Monthly.jpg" alt="" />
         </div>
 
-        <div class="work-card">
+        <!-- <div class="work-card">
           <img src="assets/Bikini.jpg" alt="" />
-        </div>
+        </div> -->
       </div>
 
       <div class="work-btn">
-        <a href="#"><button>View More</button></a>
+        <a href="works.html"><button>View More</button></a>
       </div>
     </section>
 
@@ -159,9 +162,9 @@
     <!-- Testimonials -->
     <section class="testimonials container">
       <div class="testimonial-title">Testimonials</div>
-      <div class="testimonial-container">
-        <div class="testimony">
-          <div class="testimonial-card">
+      <div class="swiper testimonial-container" >
+        <div class="swiper-wrapper testimony">
+          <div class="swiper-slide testimonial-card">
             <div class="quote">
               <img src="assets/quote.png" alt="Quote" />
             </div>
@@ -180,84 +183,40 @@
           </div>
         </div>
 
-        <div class="testimony">
-          <div class="testimonial-card">
+        <div class="swiper-wrapper testimony">
+          <div class="swiper-slide testimonial-card">
             <div class="quote">
               <img src="assets/quote.png" alt="Quote" />
             </div>
 
             <p>
-              Working with Sai Graphics has been an amazing journey, as a
-              startup foundation we needed to put our image out there and we
-              needed to do that fast and Sai Graphics helped us accomplish that
-              perfectly and on time.
+              If you bring them a seed, they will transform it into a flower, bringing your ideas to life. They went above and beyond our expectations. Their overall work quality impressed us. Think Sango Enterprise recommends Sai Graphics for you
             </p>
 
             <div class="card-footer">
-              <h1>Nii Mensah Chris</h1>
-              <span>Operations Secretary, Michael Degraft Foundation</span>
+              <h1>Elishama Sango</h1>
+              <span>CEO, Think Sango Enterprise</span>
             </div>
           </div>
         </div>
 
-        <div class="testimony">
-          <div class="testimonial-card">
+        <div class="swiper-wrapper testimony">
+          <div class="swiper-slide testimonial-card">
             <div class="quote">
               <img src="assets/quote.png" alt="Quote" />
             </div>
 
             <p>
-              Working with Sai Graphics has been an amazing journey, as a
-              startup foundation we needed to put our image out there and we
-              needed to do that fast and Sai Graphics helped us accomplish that
-              perfectly and on time.
+              The CEO of Sai Graphics is a multi- talented young guy who has special , unique grace, ability and skills when it comes to graphic designing. I recommend him to individuals, institutions & companies who wants unique designs for their company need.
             </p>
 
             <div class="card-footer">
-              <h1>Nii Mensah Chris</h1>
-              <span>Operations Secretary, Michael Degraft Foundation</span>
+              <h1>Beauty Andrews</h1>
+              <span>Founder, Beauty Andrews Foundation </span>
             </div>
           </div>
         </div>
 
-        <div class="testimony">
-          <div class="testimonial-card">
-            <div class="quote">
-              <img src="assets/quote.png" alt="Quote" />
-            </div>
-
-            <p>
-              Working with Sai Graphics has been an amazing journey, as a
-              startup foundation we needed to put our image out there and we
-              needed to do that fast and Sai Graphics helped us accomplish that
-              perfectly and on time.
-            </p>
-
-            <div class="card-footer">
-              <h1>Nii Mensah Chris</h1>
-              <span>Operations Secretary, Michael Degraft Foundation</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimony">
-          <div class="testimonial-card">
-            <div class="quote">
-              <img src="assets/quote.png" alt="Quote" />
-            </div>
-
-            <p>
-              Working with Sai Graphics has been an amazing journey, as a
-              startup foundation we needed to put our image out there and we
-              needed to do that fast and Sai Graphics helped us accomplish that
-              perfectly and on time.
-            </p>
-
-            <div class="card-footer">
-              <h1>Nii Mensah Chris</h1>
-              <span>Operations Secretary, Michael Degraft Foundation</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -298,6 +257,18 @@
       <div class="footer-text">Developed with ❤ by Michello</div>
     </footer>
 
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+  
+    <script>
+      const swiper = new Swiper('.swiper', {
+        autoplay: {
+        delay: 5000,
+ },
+});
+
+    </script>
+  
   </body>
 </html>

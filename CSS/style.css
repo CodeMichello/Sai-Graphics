@@ -207,9 +207,7 @@ nav {
 }
 
 .work {
-  margin-top: 5rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin-top: 4rem;
   background-color: #eed2db;
 }
 .work .work-title > p {
@@ -300,12 +298,9 @@ nav {
   padding-bottom: 3rem;
 }
 .testimonials .testimony {
-  padding-right: 3.5rem;
   padding-bottom: 3rem;
 }
 .testimonials .testimonial-card {
-  width: 30rem;
-  min-width: 30rem;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
   background-color: #ffff;
@@ -390,6 +385,14 @@ footer .footer-text {
   width: 100%;
   background-color: #000;
   border-radius: 10px;
+}
+
+#work-work {
+  padding-bottom: 3.5rem;
+}
+
+#work-footer {
+  background-color: #e6e6e6e0;
 }
 
 @media screen and (max-width: 576px) {
