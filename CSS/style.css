@@ -38,10 +38,6 @@ body {
 }
 
 /* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
 /* Make images easier to work with */
 img,
 picture {
@@ -346,6 +342,9 @@ nav {
   color: #603601;
   padding-left: 1.5rem;
   font-weight: 500;
+}
+.contact .contact-icons .icon-side > a {
+  text-decoration: none;
 }
 
 footer {
