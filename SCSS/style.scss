@@ -26,7 +26,7 @@ nav {
 }
 
 .brand-logo img {
-  max-width: 5rem;
+  max-width: 8rem;
 }
 
 .brand-links {
@@ -92,7 +92,7 @@ nav {
   }
 
   .hero-details {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #4a4a4a;
     padding-top: 1.5rem;
   }
@@ -235,31 +235,26 @@ nav {
 }
 
 .partners-logo {
-  display: flex;
-  align-items: center;
-  padding-top: 2rem;
-  // justify-content: space-between;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
-.img1 > img {
-  width: 105rem;
-}
+// .img1 > img {
+//   width: 60rem;
+// }
 
-.img2 > img {
-  padding-right: 1.5rem;
-}
+// .img2 > img {
+//   padding-right: 1.5rem;
+//   width: 70rem;
+// }
 
-.img3 > img {
-  width: 85rem;
-  padding-right: 1.5rem;
-}
+.img3 > img {   width: 75rem;
+margin-bottom: 2rem;
+ }
 
-.img4 > img {
-  width: 95rem;
-  padding-right: 1.5rem;
-}
+  
 
-.img5 > img {
-  width: 60rem;
+ .img5 > img {   width: 60rem;
 }
 
 //testimonials
@@ -539,6 +534,11 @@ footer {
   padding-bottom: 1.5rem;
 }
 
+.img3 > img {   
+  margin-bottom: 0.8rem;
+ 
+   }
+
 
   //testimonial
 
@@ -658,6 +658,11 @@ footer {
 .partners {
   padding-top: 1.8rem;
 }
+
+.img3 > img {   
+  margin-bottom: 0.8rem;
+ 
+   }
 
 .testimonials {
   

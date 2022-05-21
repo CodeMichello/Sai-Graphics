@@ -96,7 +96,7 @@ nav {
 }
 
 .brand-logo img {
-  max-width: 5rem;
+  max-width: 8rem;
 }
 
 .brand-links ul {
@@ -147,7 +147,7 @@ nav {
   padding-top: 1rem;
 }
 .hero-description .hero-details {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #4a4a4a;
   padding-top: 1.5rem;
 }
@@ -257,26 +257,13 @@ nav {
 
 .partners-logo {
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding-top: 2rem;
-}
-
-.img1 > img {
-  width: 105rem;
-}
-
-.img2 > img {
-  padding-right: 1.5rem;
 }
 
 .img3 > img {
-  width: 85rem;
-  padding-right: 1.5rem;
-}
-
-.img4 > img {
-  width: 95rem;
-  padding-right: 1.5rem;
+  width: 75rem;
+  margin-bottom: 2rem;
 }
 
 .img5 > img {
@@ -488,6 +475,10 @@ footer .footer-text {
     padding-bottom: 1.5rem;
   }
 
+  .img3 > img {
+    margin-bottom: 0.8rem;
+  }
+
   .testimonials {
     padding-top: 1.5em;
   }
@@ -574,6 +565,10 @@ footer .footer-text {
 
   .partners {
     padding-top: 1.8rem;
+  }
+
+  .img3 > img {
+    margin-bottom: 0.8rem;
   }
 
   .testimonials {
